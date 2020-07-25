@@ -7,12 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2c5100-eb53-449e-bca0-94d79577ee19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../desktop/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../desktop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../desktop/src/main/java/conta/dsv/Build2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../desktop/src/main/java/conta/tela/AdaptadorJavaFx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../desktop/src/main/java/conta/tela/TransferenciaFrm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../desktop/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/servicos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/src/main/java/conta/servicos/repositorio/ContaRepositorioImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/src/test/java/teste/integracao/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/src/test/java/teste/integracao/TesteContaRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/src/test/resources/create-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicos/src/test/resources/insert-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/teste/casouso/TesteAdaptadorTransferencia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="312">
+              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,6 +58,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>datasource</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -85,8 +97,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="441" />
+    <option name="y" value="48" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -517,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/teste/casouso/TesteAdaptadorTransferencia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="312">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
