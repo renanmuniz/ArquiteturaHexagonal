@@ -1,5 +1,7 @@
 package conta.tela;
 import conta.dsv.Build2;
+import conta.hml.Build3;
+import conta.prd.Build4;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import org.springframework.context.ApplicationContext;
@@ -10,7 +12,9 @@ public class AdaptadorJavaFx extends Application {
     @Override
     public void init() {
         System.out.println("iniciando spring..");
-        spring = new AnnotationConfigApplicationContext(Build2.class);
+        //spring = new AnnotationConfigApplicationContext(Build3.class);
+        //spring = new AnnotationConfigApplicationContext(Build3.class);
+        spring = new AnnotationConfigApplicationContext(Build4.class);
     }
     @Override
     public void start(Stage stage) {

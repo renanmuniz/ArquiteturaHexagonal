@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="servico" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1e1be851-15d9-490a-ab2c-f3bc2d6e4bc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/conta/servicos/repositorio/ContaRepositorioImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/teste/SuiteIntegracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/teste/integracao/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/teste/integracao/TesteContaRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/create-db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/insert-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop/src/main/java/conta/hml/Build3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop/src/main/java/conta/prd/Build4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop/src/main/resources/create-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop/src/main/resources/insert-hml.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servico.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../desktop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/src/main/java/conta/tela/AdaptadorJavaFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/src/main/java/conta/tela/AdaptadorJavaFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/target/classes/conta/tela/AdaptadorJavaFx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/target/classes/conta/tela/AdaptadorJavaFx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sistema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sistema/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,7 +36,20 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/teste/integracao/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,13 +72,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/conta/servicos/repositorio/ContaRepositorioImp.java" />
         <option value="$PROJECT_DIR$/src/test/java/teste/integracao/TesteContaRepositorio.java" />
         <option value="$PROJECT_DIR$/src/test/java/teste/integracao/Config.java" />
         <option value="$PROJECT_DIR$/src/test/java/SuiteIntegracao.java" />
         <option value="$PROJECT_DIR$/src/test/java/teste/integracao/SuiteIntegracao.java" />
         <option value="$PROJECT_DIR$/src/test/java/teste/SuiteIntegracao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -94,6 +111,24 @@
             <path>
               <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
               <item name="servicos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="servico" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
@@ -147,6 +182,15 @@
               <item name="servicos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="teste" type="462c0819:PsiDirectoryNode" />
+              <item name="integracao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servicos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -158,10 +202,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,9 +327,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteContaRepositorio_teste1 - 2020.07.25 at 19h 02m 56s.xml">
-      <configuration name="TesteContaRepositorio.teste1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TesteContaRepositorio - 2020.07.25 at 19h 12m 29s.xml">
       <configuration name="TesteContaRepositorio" configurationId="JUnit" />
     </history-entry>
@@ -311,6 +352,9 @@
       <configuration name="TesteContaRepositorio" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SuiteIntegracao - 2020.07.25 at 19h 49m 42s.xml">
+      <configuration name="SuiteIntegracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteIntegracao - 2020.07.25 at 20h 05m 42s.xml">
       <configuration name="SuiteIntegracao" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -348,13 +392,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/create-db.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/insert-data.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -410,16 +447,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/teste/integracao/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="561">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,10 +470,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>servico</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -479,7 +521,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
